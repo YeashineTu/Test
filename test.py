@@ -9,6 +9,7 @@ db.close()
 db = shelve.open('data.txt')
 name = db['name']
 print(name)
+print('111')
 
 
 
